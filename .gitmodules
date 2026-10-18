@@ -1,0 +1,8 @@
+[submodule "src/book_ros2"]
+	path = src/book_ros2
+	url = https://github.com/nhk2202/book_ros2.git
+	branch = jazzy-devel
+[submodule "src/third_party/yaets"]
+	path = src/third_party/yaets
+	url = https://github.com/fmrico/yaets.git
+	branch = jazzy
