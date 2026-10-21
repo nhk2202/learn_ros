@@ -2,6 +2,10 @@
 .pixi/*
 !.pixi/config.toml
 
+# colcon build directories
 build/
 install/
 log/
+
+# cache directories
+__pycache__/

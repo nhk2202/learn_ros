@@ -6,3 +6,71 @@
 	path = src/third_party/yaets
 	url = https://github.com/fmrico/yaets.git
 	branch = jazzy
+[submodule "src/third_party/tiago_simulation"]
+	path = src/third_party/tiago_simulation
+	url = https://github.com/Tiago-Harmonic/tiago_simulation.git
+	branch = jazzy
+[submodule "src/third_party/launch_pal"]
+	path = src/third_party/launch_pal
+	url = https://github.com/Tiago-Harmonic/launch_pal.git
+	branch = master
+[submodule "src/third_party/br2_gazebo_worlds"]
+	path = src/third_party/br2_gazebo_worlds
+	url = https://github.com/Tiago-Harmonic/br2_gazebo_worlds.git
+	branch = main
+[submodule "src/third_party/pal_maps"]
+	path = src/third_party/pal_maps
+	url = https://github.com/pal-robotics/pal_maps
+	branch = humble-devel
+[submodule "src/third_party/play_motion2"]
+	path = src/third_party/play_motion2
+	url = https://github.com/Tiago-Harmonic/play_motion2.git
+	branch = jazzy
+[submodule "src/third_party/pmb2_robot"]
+	path = src/third_party/pmb2_robot
+	url = https://github.com/Tiago-Harmonic/pmb2_robot.git
+	branch = jazzy
+[submodule "src/third_party/pmb2_navigation"]
+	path = src/third_party/pmb2_navigation
+	url = https://github.com/pal-robotics/pmb2_navigation.git
+	branch = humble-devel
+[submodule "src/third_party/tiago_robot"]
+	path = src/third_party/tiago_robot
+	url = https://github.com/Tiago-Harmonic/tiago_robot.git
+	branch = jazzy
+[submodule "src/third_party/tiago_navigation"]
+	path = src/third_party/tiago_navigation
+	url = https://github.com/Tiago-Harmonic/tiago_navigation.git
+	branch = jazzy
+[submodule "src/third_party/pal_hey5"]
+	path = src/third_party/pal_hey5
+	url = https://github.com/Tiago-Harmonic/pal_hey5.git
+	branch = jazzy
+[submodule "src/third_party/pal_gripper"]
+	path = src/third_party/pal_gripper
+	url = https://github.com/Tiago-Harmonic/pal_gripper.git
+	branch = jazzy
+[submodule "src/third_party/pal_robotiq_gripper"]
+	path = src/third_party/pal_robotiq_gripper
+	url = https://github.com/Tiago-Harmonic/pal_robotiq_gripper.git
+	branch = jazzy
+[submodule "src/third_party/tiago_moveit_config"]
+	path = src/third_party/tiago_moveit_config
+	url = https://github.com/Tiago-Harmonic/tiago_moveit_config.git
+	branch = jazzy
+[submodule "src/third_party/pal_urdf_utils"]
+	path = src/third_party/pal_urdf_utils
+	url = https://github.com/Tiago-Harmonic/pal_urdf_utils.git
+	branch = jazzy
+[submodule "src/third_party/Groot"]
+	path = src/third_party/Groot
+	url = https://github.com/BehaviorTree/Groot.git
+	branch = master
+[submodule "src/third_party/BehaviourTree.CPP"]
+	path = src/third_party/BehaviourTree.CPP
+	url = https://github.com/BehaviorTree/BehaviorTree.CPP.git
+	branch = v3.8
+[submodule "src/third_party/tiago_omni_base"]
+	path = src/third_party/tiago_omni_base
+	url = https://github.com/Tiago-Harmonic/omni_base_robot.git
+	branch = jazzy
