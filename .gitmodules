@@ -66,11 +66,14 @@
 	path = src/third_party/Groot
 	url = https://github.com/BehaviorTree/Groot.git
 	branch = master
-[submodule "src/third_party/BehaviourTree.CPP"]
-	path = src/third_party/BehaviourTree.CPP
+[submodule "src/third_party/BehaviorTree.CPP"]
+	path = src/third_party/BehaviorTree.CPP
 	url = https://github.com/BehaviorTree/BehaviorTree.CPP.git
 	branch = v3.8
 [submodule "src/third_party/tiago_omni_base"]
 	path = src/third_party/tiago_omni_base
 	url = https://github.com/Tiago-Harmonic/omni_base_robot.git
 	branch = jazzy
+[submodule "src/third_party/twist_stamper"]
+	path = src/third_party/twist_stamper
+	url = https://github.com/joshnewans/twist_stamper.git

@@ -5,7 +5,7 @@ channels = ["https://prefix.dev/conda-forge"]
 platforms = ["linux-64"]
 
 [target.linux.activation]
-scripts = ["install/setup.bash", "activate.sh"]
+scripts = ["install/setup.bash"]
 
 # To build you can use - `pixi run -e <ros distro> build <Any other temporary args>`
 [feature.build.target.unix.tasks]
@@ -21,7 +21,6 @@ pkg-config = "*"
 make = "*"
 ninja = "*"
 # ROS specific tools
-rosdep = "*"
 colcon-common-extensions = "*"
 setuptools = "<80"
 
@@ -33,7 +32,6 @@ libgl-devel = "*"
 # and can be activated using the `pixi run/shell -e <environment>` command.
 [environments]
 jazzy = { features = ["jazzy", "build"] }
-kilted = { features = ["kilted", "build"] }
 
 ### ROS Jazzy ####
 [feature.jazzy]
@@ -63,29 +61,5 @@ ros-jazzy-rmw-zenoh-cpp = "*"
 filelock = "*"
 ros-jazzy-behaviortree-cpp-v3 = ">=3.8.8,<4"
 
-### ROS Kilted ####
-[feature.kilted]
-channels = ["https://prefix.dev/robostack-kilted"]
-
-[feature.kilted.activation]
-env = { GZ_SIM_SYSTEM_PLUGIN_PATH = "$CONDA_PREFIX/lib", RMW_IMPLEMENTATION = "rmw_zenoh_cpp" }
-
-[feature.kilted.dependencies]
-ros-kilted-desktop = "*"
-ros-kilted-behaviortree-cpp = "*"
-ros-kilted-navigation2 = "*"
-ros-kilted-nav2-bringup = "*"
-ros-kilted-vision-msgs = "*"
-ros-kilted-control-msgs = "*"
-ros-kilted-image-transport = "*"
-ros-kilted-cv-bridge = "*"
-ros-kilted-moveit = "*"
-ros-kilted-moveit-ros-control-interface = "*"
-ros-kilted-controller-manager-msgs = "*"
-ros-kilted-controller-manager = "*"
-ros-kilted-ros2-controllers = "*"
-ros-kilted-gz-ros2-control = "*"
-ros-kilted-twist-mux = "*"
-ros-kilted-ros-gz = "*"
-ros-kilted-rmw-zenoh-cpp = "*"
-filelock = "*"
+[tasks]
+zenohd = "ros2 run rmw_zenoh_cpp rmw_zenohd"
