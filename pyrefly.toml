@@ -1,0 +1,2 @@
+python-interpreter-path = ".pixi/envs/jazzy/bin/python" # Nhớ update tên môi trường sau khi đổi tên.
+preset = "basic" # Các gói ros có vẻ vẫn chưa được thêm type hints. Tạm thời dùng setting này để giảm báo lỗi giả.
