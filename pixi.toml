@@ -60,6 +60,7 @@ ros-jazzy-ros-gz = "*"
 ros-jazzy-rmw-zenoh-cpp = "*"
 filelock = "*"
 ros-jazzy-behaviortree-cpp-v3 = ">=3.8.8,<4"
+ros-jazzy-rqt-tf-tree = ">=1.1.1,<2"
 
 [tasks]
 zenohd = "ros2 run rmw_zenoh_cpp rmw_zenohd"
